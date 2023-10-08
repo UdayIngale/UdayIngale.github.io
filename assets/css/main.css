@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
+about, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+about, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -2666,7 +2666,7 @@ input, select, textarea {
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
+			margin: 2em 0 0 0;
 			padding: 0 0 0 3.25em;
 			position: relative;
 		}
@@ -4005,9 +4005,9 @@ input, select, textarea {
 
 		}
 
-/* Footer */
+/* about */
 
-	#footer .inner {
+	#about .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -4025,28 +4025,29 @@ input, select, textarea {
 		width: 55em;
 	}
 
-		#footer .inner > * {
+		#about .inner > * {
 			width: 100%;
 		}
 
-		#footer .inner form {
+		#about .inner form {
 			margin: 0 3em 0 0;
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .contact {
+		#about .inner .contact {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .copyright {
+		#about .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
 			margin: 4em 0 2em 0;
 			padding: 2em 0 0 0;
 			width: 100%;
+			display: right;
 		}
 
-			#footer .inner .copyright li {
+			#about .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
@@ -4057,19 +4058,19 @@ input, select, textarea {
 				padding-left: 1em;
 			}
 
-				#footer .inner .copyright li:first-child {
+				#about .inner .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
 				}
 
-				#footer .inner .copyright li a {
+				#about .inner .copyright li a {
 					color: inherit;
 				}
 
 	@media screen and (max-width: 1280px) {
 
-		#footer {
+		#about {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
@@ -4084,28 +4085,28 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		#footer {
+		#about {
 			margin-top: -4.75em;
 			padding-top: 4.75em;
 		}
 
-			#footer .inner {
+			#about .inner {
 				padding: 3em 3em 1em 3em ;
 				display: block;
 				width: 100%;
 			}
 
-				#footer .inner form {
+				#about .inner form {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .contact {
+				#about .inner .contact {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
 
-				#footer .inner .copyright {
+				#about .inner .copyright {
 					margin: 4em 0 2em 0;
 				}
 
@@ -4113,20 +4114,20 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		#footer {
+		#about {
 			margin-top: -2.5em;
 			padding-top: 2.5em;
 		}
 
-			#footer .inner {
+			#about .inner {
 				padding: 2em 2em 0.1em 2em ;
 			}
 
-				#footer .inner form {
+				#about .inner form {
 					margin: 0 0 3em 0;
 				}
 
-				#footer .inner .contact {
+				#about .inner .contact {
 					margin: 0 0 3em 0;
 				}
 
@@ -4134,14 +4135,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		#footer .inner .copyright li {
+		#about .inner .copyright li {
 			border-left: 0;
 			display: block;
 			margin: 1em 0 0 0;
 			padding-left: 0;
 		}
 
-			#footer .inner .copyright li:first-child {
+			#about .inner .copyright li:first-child {
 				margin-top: 0;
 			}
 
@@ -4149,7 +4150,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
-		#footer .inner {
+		#about .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
